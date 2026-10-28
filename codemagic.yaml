@@ -1,0 +1,38 @@
+
+workflows:
+  infinitools-ios-simulator:
+    name: Infinitools - Compilacao iOS
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+
+    environment:
+      xcode: 16.4
+
+    scripts:
+      - name: Verificar projeto Xcode
+        script: |
+          xcodebuild -list \
+            -project Infinitools.xcodeproj
+
+      - name: Compilar Infinitools para simulador
+        script: |
+          xcodebuild build \
+            -project Infinitools.xcodeproj \
+            -scheme Infinitools \
+            -configuration Debug \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "$CM_BUILD_DIR/build/DerivedData" \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Compactar aplicativo
+        script: |
+          ditto -c -k --keepParent \
+            "$CM_BUILD_DIR/build/DerivedData/Build/Products/Debug-iphonesimulator/Infinitools.app" \
+            "$CM_BUILD_DIR/build/Infinitools-simulator.zip"
+
+    artifacts:
+      - build/Infinitools-simulator.zip
+      - build/DerivedData/Build/Products/Debug-iphonesimulator/*.app
