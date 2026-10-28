@@ -1,0 +1,36 @@
+/* Adaptação Android. O conteúdo de cada editor permanece no motor original. */
+html{color-scheme:light;overscroll-behavior-y:contain}
+body{margin:0;min-width:0!important;background:#f7f8fa;-webkit-tap-highlight-color:transparent}
+body>.site-header,body>.site-footer,.site-help-button,.seo-content,.seo-section,.skip-link,.developer-credit,.privacy-consent-banner{display:none!important}
+main{max-width:100%;box-sizing:border-box}
+.tool-main{padding:18px 14px 36px!important}
+.tool-hero{margin-bottom:18px!important;gap:12px!important}
+.tool-hero{padding:6px 0 4px!important}
+.tool-hero h1{font-size:24px!important;line-height:1.2!important}
+.tool-hero p{font-size:14px!important}
+.tool-hero .tool-icon{width:48px!important;height:48px!important;min-width:48px!important}
+input,select,textarea,button{font-size:16px}
+button,.btn{min-height:44px;touch-action:manipulation}
+.workspace,.utility-workspace{gap:16px!important}
+.options-card,.work-card{border-radius:18px!important}
+.work-card{padding:14px!important}
+.drop-zone{min-height:150px!important}
+.drop-icon{width:48px!important;height:48px!important;border-radius:14px!important}
+.drop-icon .ui-icon-svg{width:26px!important;height:26px!important}
+.drop-zone strong{font-size:17px!important}
+.workspace>details.notice-card{grid-column:1/-1;margin:0}
+details.notice-card summary{font-weight:650;cursor:pointer}
+details.notice-card>div{margin-top:10px}
+canvas{touch-action:none}
+.android-toast{position:fixed;bottom:24px;left:16px;right:16px;z-index:2147483646;background:#17212e;color:white;padding:14px 18px;border-radius:14px;box-shadow:0 6px 30px #0003;font:14px/1.4 sans-serif;pointer-events:none}
+@media(max-width:650px){
+ .workspace,.utility-workspace{display:flex!important;flex-direction:column!important}
+ .options-card{position:static!important;width:auto!important;min-width:0!important}
+ .tool-hero .eyebrow{display:none}
+ .tool-hero{align-items:flex-start!important}
+ .tool-hero h1{font-size:22px!important}
+ .result-card{flex-wrap:wrap}
+ .result-card .btn{width:100%}
+ .drop-zone{padding:24px 12px!important}
+}
+

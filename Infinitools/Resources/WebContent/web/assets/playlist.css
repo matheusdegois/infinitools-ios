@@ -1,0 +1,20 @@
+.playlist-panel{margin-top:20px;padding:22px}
+.youtube-input-row{grid-template-columns:minmax(0,1fr) auto}
+.playlist-heading,.playlist-actions,.playlist-select-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.playlist-heading h2{margin:5px 0}.playlist-heading p{margin:0;color:var(--muted)}
+.playlist-select-actions{justify-content:flex-start;margin:18px 0 12px}
+.playlist-select-actions button,.playlist-item button{border:0;background:transparent;color:var(--orange);font:inherit;font-weight:700;cursor:pointer}
+.playlist-items{display:grid;gap:8px;max-height:540px;overflow:auto}
+.playlist-item{display:grid;grid-template-columns:auto 48px minmax(180px,1fr) minmax(100px,auto) auto auto auto;align-items:center;gap:12px;padding:12px;border:1px solid var(--line);border-radius:10px;background:#fff}
+.playlist-thumbnail{width:48px;height:48px;object-fit:cover;border-radius:7px;background:#f2f4f6}.playlist-thumbnail[hidden]{visibility:hidden;display:block}
+.playlist-item input{width:19px;height:19px;accent-color:var(--orange)}
+.playlist-item strong{display:block;overflow-wrap:anywhere}.playlist-item small{display:block;color:var(--muted)}
+.playlist-item-status{font-size:13px;font-weight:700;color:var(--ink);overflow-wrap:anywhere}
+.playlist-item[data-state="completed"] .playlist-item-status{color:#176735}
+.playlist-item[data-state="failed"] .playlist-item-status{color:#9c2118}
+.playlist-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:20px 0}
+.playlist-controls label{display:grid;gap:6px;font-size:13px;font-weight:700}
+.playlist-controls input,.playlist-controls select{width:100%;min-height:42px;padding:8px;border:1px solid var(--line);border-radius:10px;background:#fff;font:inherit;box-sizing:border-box}
+.playlist-actions{justify-content:flex-start}.playlist-actions .btn{min-height:42px}
+#playlistProgress{margin-top:18px}#playlistProgress strong{display:block;margin-bottom:8px}#playlistProgress progress{width:100%;accent-color:var(--orange)}
+@media(max-width:760px){.youtube-input-row{grid-template-columns:1fr}.playlist-panel{padding:15px}.playlist-item{grid-template-columns:auto 42px minmax(0,1fr) auto}.playlist-thumbnail{width:42px;height:42px}.playlist-item-status{grid-column:3/-1}.playlist-item button{font-size:12px}}

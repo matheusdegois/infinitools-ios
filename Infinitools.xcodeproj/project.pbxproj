@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+
+	};
+	objectVersion = 56;
+	objects = {
+		7A45A89C40E349E931D9FA81 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/App/AppModel.swift";
+			sourceTree = "<group>";
+		};
+		2C74B8F15B317C05ED482333 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/App/InfinitoolsApp.swift";
+			sourceTree = "<group>";
+		};
+		4BA98CC8D71791763D1978B8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/Core/AssetRouter.swift";
+			sourceTree = "<group>";
+		};
+		23FD929EC6A0F2C28A839C12 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/Core/Catalog.swift";
+			sourceTree = "<group>";
+		};
+		F95BB9B71F5EF63D2372A0B1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/Core/HTTP.swift";
+			sourceTree = "<group>";
+		};
+		D7DD45AECB1DA0199261B4B1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/Core/ResultStore.swift";
+			sourceTree = "<group>";
+		};
+		E1F317D951252DFD4BA3B950 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/UI/ResultsView.swift";
+			sourceTree = "<group>";
+		};
+		6735538E40838B22D5583E1A = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/UI/RootView.swift";
+			sourceTree = "<group>";
+		};
+		FF124BCC39CBB71D87657245 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/UI/SettingsView.swift";
+			sourceTree = "<group>";
+		};
+		ADEF8FD924C986DE81F12E1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/UI/SystemViews.swift";
+			sourceTree = "<group>";
+		};
+		2C0D4D12F7FFE55AD1DCFDCB = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/UI/ToolScreen.swift";
+			sourceTree = "<group>";
+		};
+		BD325E81D8DE4B313626B73C = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/Web/Backend.swift";
+			sourceTree = "<group>";
+		};
+		BA64648658421A3048262B4D = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/Web/LocalServer.swift";
+			sourceTree = "<group>";
+		};
+		4E27388BE2AAA3C14BE01B02 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Infinitools/Web/WebEngine.swift";
+			sourceTree = "<group>";
+		};
+		2186600BE6219E41D94369CA = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Shared/IncomingFiles.swift";
+			sourceTree = "<group>";
+		};
+		64BB437008C3A3D336D3DC78 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "ShareExtension/ShareViewController.swift";
+			sourceTree = "<group>";
+		};
+		62FADE58981B0DE5D3B57DD3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/iOS/WebEngineTests.swift";
+			sourceTree = "<group>";
+		};
+		E0483541572D4B03B6A6CB97 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/UI/InfinitoolsUITests.swift";
+			sourceTree = "<group>";
+		};
+		1C1C40BB66BFAECFA2A6670F = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = "Infinitools/Resources/WebContent";
+			sourceTree = "<group>";
+		};
+		C2F4A9BE8B3F6D33800CAE23 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "folder.assetcatalog";
+			path = "Infinitools/Resources/Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		1EB06D4CF095A39648A29622 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.xml";
+			path = "Infinitools/PrivacyInfo.xcprivacy";
+			sourceTree = "<group>";
+		};
+		C5048341EEE2E619303E5DAB = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.xml";
+			path = "ShareExtension/PrivacyInfo.xcprivacy";
+			sourceTree = "<group>";
+		};
+		E4C86E026D1B554986429FD2 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "Infinitools.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0AF250241727076D942461BE = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			path = "InfinitoolsShare.appex";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		248CC7DF72F6C824C4DBE9C4 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.cfbundle";
+			path = "InfinitoolsTests.xctest";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A4C9E87053BDE3974EAF77E1 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.cfbundle";
+			path = "InfinitoolsUITests.xctest";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0A8ED193BF319FDBDB01BDD0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.xml";
+			path = "Infinitools/Info.plist";
+			sourceTree = "<group>";
+		};
+		EF36881F5F2BBD93530FA898 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.xml";
+			path = "ShareExtension/Info.plist";
+			sourceTree = "<group>";
+		};
+		6E93D73603D21797CAFB7DF7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.entitlements";
+			path = "Infinitools/Infinitools.entitlements";
+			sourceTree = "<group>";
+		};
+		1D0D0834DEE5F16CE449FDA1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = "text.plist.entitlements";
+			path = "ShareExtension/Share.entitlements";
+			sourceTree = "<group>";
+		};
+		870B3294C0CBD48AF6BBCC1B = {
+			isa = PBXGroup;
+			children = (
+				7A45A89C40E349E931D9FA81,
+				2C74B8F15B317C05ED482333,
+				4BA98CC8D71791763D1978B8,
+				23FD929EC6A0F2C28A839C12,
+				F95BB9B71F5EF63D2372A0B1,
+				D7DD45AECB1DA0199261B4B1,
+				E1F317D951252DFD4BA3B950,
+				6735538E40838B22D5583E1A,
+				FF124BCC39CBB71D87657245,
+				ADEF8FD924C986DE81F12E1B,
+				2C0D4D12F7FFE55AD1DCFDCB,
+				BD325E81D8DE4B313626B73C,
+				BA64648658421A3048262B4D,
+				4E27388BE2AAA3C14BE01B02,
+				2186600BE6219E41D94369CA,
+				64BB437008C3A3D336D3DC78,
+				62FADE58981B0DE5D3B57DD3,
+				E0483541572D4B03B6A6CB97,
+				1C1C40BB66BFAECFA2A6670F,
+				C2F4A9BE8B3F6D33800CAE23,
+				1EB06D4CF095A39648A29622,
+				C5048341EEE2E619303E5DAB,
+				0A8ED193BF319FDBDB01BDD0,
+				EF36881F5F2BBD93530FA898,
+				6E93D73603D21797CAFB7DF7,
+				1D0D0834DEE5F16CE449FDA1,
+				FBDC4F23F93125BBEEAE800C,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C = {
+			isa = PBXGroup;
+			children = (
+				E4C86E026D1B554986429FD2,
+				0AF250241727076D942461BE,
+				248CC7DF72F6C824C4DBE9C4,
+				A4C9E87053BDE3974EAF77E1,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262E02E3C63E2FBADCBCB6A2 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = "5.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+			};
+			name = Debug;
+		};
+		86E0D76135EE80816AB07AC0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = "5.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		247BF104A9AD002C539DA531 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262E02E3C63E2FBADCBCB6A2,
+				86E0D76135EE80816AB07AC0,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1644554C7DB72EE26050DD71 = {
+			isa = PBXBuildFile;
+			fileRef = 7A45A89C40E349E931D9FA81;
+		};
+		9A8ACEE62A00CBF61E889B75 = {
+			isa = PBXBuildFile;
+			fileRef = 2C74B8F15B317C05ED482333;
+		};
+		EE17AE3CA0C57C03DB5C51F2 = {
+			isa = PBXBuildFile;
+			fileRef = 4BA98CC8D71791763D1978B8;
+		};
+		A154B2C3D82FFD8827E1CD84 = {
+			isa = PBXBuildFile;
+			fileRef = 23FD929EC6A0F2C28A839C12;
+		};
+		6E809C79E851131FBDE5CD6B = {
+			isa = PBXBuildFile;
+			fileRef = F95BB9B71F5EF63D2372A0B1;
+		};
+		8F0A3238CFEDE8FD499A31CC = {
+			isa = PBXBuildFile;
+			fileRef = D7DD45AECB1DA0199261B4B1;
+		};
+		6687888F331AB0577D617784 = {
+			isa = PBXBuildFile;
+			fileRef = E1F317D951252DFD4BA3B950;
+		};
+		B397C265035AF5546FAD24BC = {
+			isa = PBXBuildFile;
+			fileRef = 6735538E40838B22D5583E1A;
+		};
+		55EF4C467964911E755E3436 = {
+			isa = PBXBuildFile;
+			fileRef = FF124BCC39CBB71D87657245;
+		};
+		0CA3A00953E6F7E857953349 = {
+			isa = PBXBuildFile;
+			fileRef = ADEF8FD924C986DE81F12E1B;
+		};
+		0C55E740C5E6304F00310F6F = {
+			isa = PBXBuildFile;
+			fileRef = 2C0D4D12F7FFE55AD1DCFDCB;
+		};
+		CC1146DF02295BCE937FF637 = {
+			isa = PBXBuildFile;
+			fileRef = BD325E81D8DE4B313626B73C;
+		};
+		E95301CDA878C0E3BB31A6C5 = {
+			isa = PBXBuildFile;
+			fileRef = BA64648658421A3048262B4D;
+		};
+		25C8AB82ECC5CCAA7B166E0A = {
+			isa = PBXBuildFile;
+			fileRef = 4E27388BE2AAA3C14BE01B02;
+		};
+		D7B044E94F7DB51ED5663594 = {
+			isa = PBXBuildFile;
+			fileRef = 2186600BE6219E41D94369CA;
+		};
+		C919907505CCCB86B9692029 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1644554C7DB72EE26050DD71,
+				9A8ACEE62A00CBF61E889B75,
+				EE17AE3CA0C57C03DB5C51F2,
+				A154B2C3D82FFD8827E1CD84,
+				6E809C79E851131FBDE5CD6B,
+				8F0A3238CFEDE8FD499A31CC,
+				6687888F331AB0577D617784,
+				B397C265035AF5546FAD24BC,
+				55EF4C467964911E755E3436,
+				0CA3A00953E6F7E857953349,
+				0C55E740C5E6304F00310F6F,
+				CC1146DF02295BCE937FF637,
+				E95301CDA878C0E3BB31A6C5,
+				25C8AB82ECC5CCAA7B166E0A,
+				D7B044E94F7DB51ED5663594,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD10348067CCA46AA274F70 = {
+			isa = PBXBuildFile;
+			fileRef = 1C1C40BB66BFAECFA2A6670F;
+		};
+		E120E00D5866F0EE4BD4F161 = {
+			isa = PBXBuildFile;
+			fileRef = C2F4A9BE8B3F6D33800CAE23;
+		};
+		BD18DE8A40823152451A0E60 = {
+			isa = PBXBuildFile;
+			fileRef = 1EB06D4CF095A39648A29622;
+		};
+		43E45B997B1E1379DFD6BFEF = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD10348067CCA46AA274F70,
+				E120E00D5866F0EE4BD4F161,
+				BD18DE8A40823152451A0E60,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E1A2DA02A5F5855E365535 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8DF457004DDCB5B616420C = {
+			isa = PBXBuildFile;
+			fileRef = 0AF250241727076D942461BE;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		59F0EF556AF35CA7586D8A1E = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6B8DF457004DDCB5B616420C,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23967C5A13BDD072D40C3542 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.infinitools.ios";
+				GENERATE_INFOPLIST_FILE = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = "1.0.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				INFOPLIST_FILE = "Infinitools/Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "Infinitools/Infinitools.entitlements";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+			};
+			name = Debug;
+		};
+		ABBFA157C69E0996EB3047FB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.infinitools.ios";
+				GENERATE_INFOPLIST_FILE = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = "1.0.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				INFOPLIST_FILE = "Infinitools/Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "Infinitools/Infinitools.entitlements";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F5A405F288F4A969E52D14B = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23967C5A13BDD072D40C3542,
+				ABBFA157C69E0996EB3047FB,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C5920E8AA113963CB0FFE0 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = 1;
+			remoteGlobalIDString = 1A8F1E1AC319C59BD174EB6A;
+			remoteInfo = InfinitoolsShare;
+		};
+		51B3B54EB095EE93AE97880F = {
+			isa = PBXTargetDependency;
+			target = 1A8F1E1AC319C59BD174EB6A;
+			targetProxy = E9C5920E8AA113963CB0FFE0;
+		};
+		CCF2B806021AA1716E827A45 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5A405F288F4A969E52D14B;
+			buildPhases = (
+				C919907505CCCB86B9692029,
+				F7E1A2DA02A5F5855E365535,
+				43E45B997B1E1379DFD6BFEF,
+				59F0EF556AF35CA7586D8A1E,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+				51B3B54EB095EE93AE97880F,
+			);
+			name = Infinitools;
+			productName = Infinitools;
+			productReference = E4C86E026D1B554986429FD2;
+			productType = "com.apple.product-type.application";
+		};
+		121B7413607D62E8D35739B8 = {
+			isa = PBXBuildFile;
+			fileRef = 64BB437008C3A3D336D3DC78;
+		};
+		F607DF03D2E35D73E03BCF91 = {
+			isa = PBXBuildFile;
+			fileRef = 2186600BE6219E41D94369CA;
+		};
+		A5E6055D8B228000463C6D31 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121B7413607D62E8D35739B8,
+				F607DF03D2E35D73E03BCF91,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834DD8A5F769D56B47AD64B2 = {
+			isa = PBXBuildFile;
+			fileRef = C5048341EEE2E619303E5DAB;
+		};
+		794638E1C108F3B2EDF58D27 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834DD8A5F769D56B47AD64B2,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFDED419B5A0A40FEAC4E08 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9574CD3F5291A47C7A974A91 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.infinitools.ios.share";
+				GENERATE_INFOPLIST_FILE = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = "1.0.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				INFOPLIST_FILE = "ShareExtension/Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "ShareExtension/Share.entitlements";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+			};
+			name = Debug;
+		};
+		F3D5471FEC8F3DBBD0BA3250 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.infinitools.ios.share";
+				GENERATE_INFOPLIST_FILE = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = "1.0.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				INFOPLIST_FILE = "ShareExtension/Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "ShareExtension/Share.entitlements";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		246365255D54F0106507FEB1 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9574CD3F5291A47C7A974A91,
+				F3D5471FEC8F3DBBD0BA3250,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8F1E1AC319C59BD174EB6A = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246365255D54F0106507FEB1;
+			buildPhases = (
+				A5E6055D8B228000463C6D31,
+				9CFDED419B5A0A40FEAC4E08,
+				794638E1C108F3B2EDF58D27,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+
+			);
+			name = InfinitoolsShare;
+			productName = InfinitoolsShare;
+			productReference = 0AF250241727076D942461BE;
+			productType = "com.apple.product-type.app-extension";
+		};
+		42AC1F98B50989AE347311EF = {
+			isa = PBXBuildFile;
+			fileRef = 62FADE58981B0DE5D3B57DD3;
+		};
+		0F68F93CFE528685C7953929 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AC1F98B50989AE347311EF,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F531CD1EF18819CEA175F41 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A971021BD2F080DC3B1CD9 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941877CE9CFEE589E64F515D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.infinitools.ios.tests";
+				GENERATE_INFOPLIST_FILE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = "1.0.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				TEST_TARGET_NAME = Infinitools;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infinitools.app/Infinitools";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+			};
+			name = Debug;
+		};
+		B4D19DB28F2CB0CF0B9022D9 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.infinitools.ios.tests";
+				GENERATE_INFOPLIST_FILE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = "1.0.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				TEST_TARGET_NAME = Infinitools;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infinitools.app/Infinitools";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD911059B4F12E6C07B60608 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941877CE9CFEE589E64F515D,
+				B4D19DB28F2CB0CF0B9022D9,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F97277648FBC8289818906 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = 1;
+			remoteGlobalIDString = CCF2B806021AA1716E827A45;
+			remoteInfo = Infinitools;
+		};
+		1B67470C6277066D9BBE1DA2 = {
+			isa = PBXTargetDependency;
+			target = CCF2B806021AA1716E827A45;
+			targetProxy = 92F97277648FBC8289818906;
+		};
+		4AC6CEAC9D593D4907B4F7D9 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD911059B4F12E6C07B60608;
+			buildPhases = (
+				0F68F93CFE528685C7953929,
+				C3A971021BD2F080DC3B1CD9,
+				4F531CD1EF18819CEA175F41,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+				1B67470C6277066D9BBE1DA2,
+			);
+			name = InfinitoolsTests;
+			productName = InfinitoolsTests;
+			productReference = 248CC7DF72F6C824C4DBE9C4;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31430219C1237B92500F0155 = {
+			isa = PBXBuildFile;
+			fileRef = E0483541572D4B03B6A6CB97;
+		};
+		F2A847CC45842C85B08B37D8 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31430219C1237B92500F0155,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC9425D82D1A5C6877F3F22 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE33646D154D84B6275405B8 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5032030B96DFC2715B44C4 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.infinitools.ios.uitests";
+				GENERATE_INFOPLIST_FILE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = "1.0.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				TEST_TARGET_NAME = Infinitools;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+			};
+			name = Debug;
+		};
+		6DDB41DC2F36DB451BFC3402 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.infinitools.ios.uitests";
+				GENERATE_INFOPLIST_FILE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = "1.0.0";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				TEST_TARGET_NAME = Infinitools;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E605DA0856CA1D0B1BD911C = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5032030B96DFC2715B44C4,
+				6DDB41DC2F36DB451BFC3402,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D48E552882229FC2B10DEB = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = 1;
+			remoteGlobalIDString = CCF2B806021AA1716E827A45;
+			remoteInfo = Infinitools;
+		};
+		735F8B59B2F39E8C08D1289A = {
+			isa = PBXTargetDependency;
+			target = CCF2B806021AA1716E827A45;
+			targetProxy = A2D48E552882229FC2B10DEB;
+		};
+		73F3A3E6EBF0E4E3438D72EA = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E605DA0856CA1D0B1BD911C;
+			buildPhases = (
+				F2A847CC45842C85B08B37D8,
+				CE33646D154D84B6275405B8,
+				BBC9425D82D1A5C6877F3F22,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+				735F8B59B2F39E8C08D1289A,
+			);
+			name = InfinitoolsUITests;
+			productName = InfinitoolsUITests;
+			productReference = A4C9E87053BDE3974EAF77E1;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		98F54143AB4E86B28C3AFEE0 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CCF2B806021AA1716E827A45 = {
+						CreatedOnToolsVersion = "16.0";
+						SystemCapabilities = {
+							"com.apple.ApplicationGroups.iOS" = {
+								enabled = 1;
+							};
+						};
+					};
+					1A8F1E1AC319C59BD174EB6A = {
+						CreatedOnToolsVersion = "16.0";
+						SystemCapabilities = {
+							"com.apple.ApplicationGroups.iOS" = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 247BF104A9AD002C539DA531;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "pt-BR";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"pt-BR",
+				en,
+				Base,
+			);
+			mainGroup = 870B3294C0CBD48AF6BBCC1B;
+			productRefGroup = FBDC4F23F93125BBEEAE800C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF2B806021AA1716E827A45,
+				1A8F1E1AC319C59BD174EB6A,
+				4AC6CEAC9D593D4907B4F7D9,
+				73F3A3E6EBF0E4E3438D72EA,
+			);
+		};
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0;
+}

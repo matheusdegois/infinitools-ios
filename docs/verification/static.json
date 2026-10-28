@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-27T20:23:36.272Z",
+  "environment": "win32",
+  "checks": [
+    {
+      "name": "catalog parity and unique family IDs",
+      "passed": true,
+      "detail": {
+        "tools": 158
+      }
+    },
+    {
+      "name": "157 local pages and real downloader route",
+      "passed": true
+    },
+    {
+      "name": "imported resource integrity",
+      "passed": true,
+      "detail": {
+        "files": 507
+      }
+    },
+    {
+      "name": "GIF fallback uses the original scene renderer and defers resize writes",
+      "passed": true
+    },
+    {
+      "name": "seven authenticated remote engines",
+      "passed": true
+    },
+    {
+      "name": "no PHP source, credentials or private paths in app resources",
+      "passed": true
+    },
+    {
+      "name": "Swift syntax trees",
+      "passed": true,
+      "detail": {
+        "files": 22,
+        "note": "Parser syntax check only, not Swift compilation."
+      }
+    },
+    {
+      "name": "Xcode target references, resources, test host and source membership",
+      "passed": true,
+      "detail": {
+        "targets": [
+          "Infinitools",
+          "InfinitoolsShare",
+          "InfinitoolsTests",
+          "InfinitoolsUITests"
+        ]
+      }
+    },
+    {
+      "name": "prototype remains local, isolated and without publication",
+      "passed": true
+    },
+    {
+      "name": "opaque Lottie preview has authenticated inline scripts and blob loading",
+      "passed": true
+    },
+    {
+      "name": "native bridge and loopback restrictions exist",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Swift type checking, Xcode build, XCTest, simulator and physical iOS execution require macOS and have not been run by this script."
+  ]
+}

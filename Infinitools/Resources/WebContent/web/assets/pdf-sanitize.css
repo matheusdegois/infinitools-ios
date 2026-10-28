@@ -1,0 +1,11 @@
+.sanitize-main{max-width:1000px;padding-bottom:60px}
+.sanitize-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;margin:0 0 24px;box-shadow:var(--shadow)}
+.sanitize-card>p{color:var(--muted);line-height:1.6}
+.sanitize-card .drop-zone{margin-top:24px;position:relative}
+.sanitize-card .drop-zone:focus-within{outline:3px solid var(--orange);outline-offset:3px}
+.sanitize-card .drop-zone[aria-disabled="true"]{opacity:.6;cursor:wait}
+.sanitize-card .file-row{margin-top:14px}
+.sanitize-actions{display:flex;gap:12px;flex-wrap:wrap}
+.sanitize-card progress{width:100%;margin-top:20px}
+.sanitize-main [hidden]{display:none!important}
+@media(max-width:620px){.sanitize-card{padding:18px}.sanitize-main .tool-hero{gap:12px}.sanitize-main .tool-hero .tool-icon{display:grid;width:48px;height:48px;flex-basis:48px}.sanitize-card .drop-zone{min-height:220px;padding:20px}.sanitize-actions .btn{width:100%}}

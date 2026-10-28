@@ -1,0 +1,30 @@
+{
+  "/assets/vendor/deepfilternet/df_bg.wasm": {
+    "sha256": "596034b83a03b546f33daa14b791bcdb59655cb3a07053ac39ddb0ba42c52fa4",
+    "bytes": 34135648
+  },
+  "/assets/vendor/demucs/htdemucs_fp16weights.onnx": {
+    "sha256": "d05c269d0178d2a72ad484b10b11dd370193fc923201c3b27a99f848745db70a",
+    "bytes": 165612636
+  },
+  "/assets/vendor/demucs/ort-wasm-simd-threaded.jsep.wasm": {
+    "sha256": "938bd5e845aaac341253f2e72af81c41be45e05c61ac055eedddee9010c57415",
+    "bytes": 23696346
+  },
+  "/assets/vendor/demucs/ort-wasm-simd-threaded.wasm": {
+    "sha256": "3398c10d07d229bd91b364548e130e0e51a8e5704b88c7c083ebbeb78842dee2",
+    "bytes": 14239897
+  },
+  "/assets/vendor/image-ai/ort-wasm-simd-threaded.wasm": {
+    "sha256": "71aef04959c5c1b6de461b6538e2058e306610034a85aad2742d0c7fd4533fe4",
+    "bytes": 11210254
+  },
+  "/assets/vendor/image-restoration-ai/ort-wasm-simd-threaded.jsep.wasm": {
+    "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39",
+    "bytes": 21596019
+  },
+  "/assets/vendor/image-restoration-ai/models/swin2sr/onnx/model_quantized.onnx": {
+    "sha256": "83cff83efba9df253c5d11cda5b944d0ce4d4ef595d2669dc268421519fe34ec",
+    "bytes": 21471413
+  }
+}

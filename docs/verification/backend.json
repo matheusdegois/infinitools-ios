@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-27T20:05:48.750Z",
+  "checks": [
+    {
+      "path": "/api/compiler.php",
+      "method": "GET",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytes": null,
+      "languages": 116
+    },
+    {
+      "path": "/youtube-download",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": null,
+      "hasCSRFAttribute": true,
+      "hasDownloaderEndpoint": true
+    },
+    {
+      "path": "/privacidade",
+      "method": "HEAD",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": null
+    },
+    {
+      "path": "/assets/vendor/deepfilternet/df_bg.wasm",
+      "method": "HEAD",
+      "expectedBytes": 34135648,
+      "status": 200,
+      "contentType": "application/wasm",
+      "bytes": 34135648,
+      "sizeMatches": true
+    },
+    {
+      "path": "/assets/vendor/demucs/htdemucs_fp16weights.onnx",
+      "method": "HEAD",
+      "expectedBytes": 165612636,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 165612636,
+      "sizeMatches": true
+    },
+    {
+      "path": "/assets/vendor/demucs/ort-wasm-simd-threaded.jsep.wasm",
+      "method": "HEAD",
+      "expectedBytes": 23696346,
+      "status": 200,
+      "contentType": "application/wasm",
+      "bytes": 23696346,
+      "sizeMatches": true
+    },
+    {
+      "path": "/assets/vendor/demucs/ort-wasm-simd-threaded.wasm",
+      "method": "HEAD",
+      "expectedBytes": 14239897,
+      "status": 200,
+      "contentType": "application/wasm",
+      "bytes": 14239897,
+      "sizeMatches": true
+    },
+    {
+      "path": "/assets/vendor/image-ai/ort-wasm-simd-threaded.wasm",
+      "method": "HEAD",
+      "expectedBytes": 11210254,
+      "status": 200,
+      "contentType": "application/wasm",
+      "bytes": 11210254,
+      "sizeMatches": true
+    },
+    {
+      "path": "/assets/vendor/image-restoration-ai/ort-wasm-simd-threaded.jsep.wasm",
+      "method": "HEAD",
+      "expectedBytes": 21596019,
+      "status": 200,
+      "contentType": "application/wasm",
+      "bytes": 21596019,
+      "sizeMatches": true
+    },
+    {
+      "path": "/assets/vendor/image-restoration-ai/models/swin2sr/onnx/model_quantized.onnx",
+      "method": "HEAD",
+      "expectedBytes": 21471413,
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 21471413,
+      "sizeMatches": true
+    }
+  ],
+  "limitations": [
+    "HEAD does not verify remote file SHA-256. Swift EngineCache verifies downloaded bytes before use.",
+    "No execution of paid compiler, third-party media download or personal certificate signing was performed."
+  ]
+}

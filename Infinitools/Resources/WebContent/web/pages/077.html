@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><base href="/"><link rel="stylesheet" href="/android/mobile.css?v=2"><script src="/ios/transport.js"></script><script src="/android/bridge.js?v=3"></script>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ff5a0a">
+        <title>Rasurar PDF online grátis | infinitools</title>
+    <meta name="description" content="Rasure PDF online grátis: selecione visualmente dados sensíveis, aplique a ocultação e baixe uma cópia rasterizada sem cadastro.">
+    <meta name="keywords" content="rasurar PDF online grátis, ocultar texto em PDF, remover informações de PDF, censurar PDF online">    <meta name="author" content="Matheus de gois">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://www.infinitools.com.br/redact">
+    <link rel="alternate" hreflang="pt-BR" href="https://www.infinitools.com.br/redact">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Infinitools">
+    <meta property="og:image" content="https://www.infinitools.com.br/assets/images/infinitools-logo.png">
+    <meta property="og:image:alt" content="Infinitools">
+    <meta property="og:title" content="Rasurar PDF online grátis | infinitools">
+    <meta property="og:description" content="Rasure PDF online grátis: selecione visualmente dados sensíveis, aplique a ocultação e baixe uma cópia rasterizada sem cadastro.">
+    <meta property="og:url" content="https://www.infinitools.com.br/redact">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Rasurar PDF online grátis | infinitools">
+    <meta name="twitter:description" content="Rasure PDF online grátis: selecione visualmente dados sensíveis, aplique a ocultação e baixe uma cópia rasterizada sem cadastro.">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Rasurar PDF online","url":"https://www.infinitools.com.br/redact","description":"Rasure PDF online grátis: selecione visualmente dados sensíveis, aplique a ocultação e baixe uma cópia rasterizada sem cadastro.","applicationCategory":"UtilitiesApplication","operatingSystem":"Qualquer sistema com navegador moderno","browserRequirements":"JavaScript e WebAssembly quando exigidos pela ferramenta","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"BRL"},"inLanguage":"pt-BR","featureList":["Seleção visual das áreas","Cópia rasterizada","Uso sem cadastro"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://www.infinitools.com.br/"},{"@type":"ListItem","position":2,"name":"Rasurar PDF online","item":"https://www.infinitools.com.br/redact"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Como rasurar um PDF online?","acceptedAnswer":{"@type":"Answer","text":"Selecione o PDF, arraste sobre as informações que deseja ocultar, revise as páginas e finalize o novo arquivo."}},{"@type":"Question","name":"A informação coberta continua selecionável?","acceptedAnswer":{"@type":"Answer","text":"As páginas são rasterizadas antes da montagem final, eliminando a camada de texto original do arquivo gerado."}}]}]}</script>
+    <link rel="stylesheet" href="assets/privacy-consent.css?v=2">
+    
+        <link rel="icon" href="assets/images/infinitools-favicon.ico?v=2" sizes="any"><link rel="apple-touch-icon" href="assets/images/infinitools-icon-180.png?v=2"><link rel="stylesheet" href="assets/style.css?v=8">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="./"><img src="assets/images/infinitools-logo.png" alt="infinitools"></a><nav class="main-nav"><a href="./#ferramentas">Todas as ferramentas</a><span class="local-badge">Rasura segura</span></nav></header>
+<main class="redact-shell">
+    <section class="tool-hero"><span class="tool-icon">▰</span><div><span class="eyebrow">SEGURANÇA DO PDF</span><h1>Ocultar / rasurar PDF</h1><p>Selecione as áreas que deseja remover visualmente. O PDF original é aberto localmente; apenas as páginas já rasterizadas e rasuradas seguem para a montagem final.</p></div></section>
+    <section class="work-card" id="uploadCard">
+        <label class="drop-zone" for="pdfFile"><input id="pdfFile" type="file" accept="application/pdf,.pdf"><span class="drop-icon">PDF</span><strong>Selecionar arquivo PDF</strong><small>Uma ou várias páginas</small></label><div class="file-list file-info" id="fileInfo" hidden></div>
+    </section>
+    <section class="redact-editor" id="editor" hidden>
+        <div class="toolbar"><div><strong id="documentName">Documento</strong><span id="pageCount"></span></div><div class="toolbar-actions"><button type="button" class="btn btn-secondary" id="undoBtn" disabled>Desfazer última</button><button type="button" class="btn btn-secondary" id="clearBtn" disabled>Limpar rasuras</button><button type="button" class="btn btn-secondary" id="changeFileBtn">Trocar arquivo</button></div></div>
+        <div class="tip">Clique e arraste sobre qualquer página para criar uma rasura. Para remover uma área, clique no <strong>×</strong> dela. O conteúdo coberto será eliminado ao rasterizar a página.</div>
+        <div id="pagesContainer" class="pages-container"></div>
+        <div class="color-palette" role="group" aria-label="Cor da rasura"><div class="color-palette-copy"><span>Cor da rasura</span><strong id="redactionColorValue">#000000</strong></div><input class="color-picker" id="redactionColor" type="color" value="#000000"><button type="button" class="btn btn-secondary" id="resetRedactionColor">Preto</button></div>
+        <div class="finish-area"><div class="selection-summary" id="selectionSummary">Nenhuma rasura selecionada.</div><button type="button" class="btn btn-primary" id="finishBtn">Finalizar</button></div>
+    </section>
+    <section class="result-card" id="resultCard" hidden><div class="result-icon">✓</div><div><h2>Arquivo finalizado</h2><p>O PDF rasurado está pronto para baixar.</p></div><a class="btn btn-success" id="downloadBtn" href="#" download>Baixar arquivo rasurado</a><button type="button" class="btn btn-secondary" id="editAgainBtn">Voltar e editar</button></section>
+    <div class="processing" id="processing" hidden aria-live="polite"><div class="processing-box"><div class="spinner"></div><strong id="processingTitle">Processando...</strong><span id="processingText">Preparando as páginas.</span><div class="progress-track"><div class="progress-bar" id="progressBar"></div></div></div></div>
+        <section class="seo-content" aria-labelledby="seo-content-title">
+        <span class="eyebrow">CONVERSÃO ONLINE</span>
+        <h2 id="seo-content-title">Rasurar PDF online com seleção visual</h2>
+        <p>Marque diretamente nas páginas as áreas que devem ser ocultadas. O novo PDF é montado com as páginas rasterizadas para que o conteúdo original coberto não permaneça como texto selecionável.</p>
+        <div class="seo-tags" aria-label="Recursos relacionados"><span>Rasurar PDF online</span><span>Ocultar dados de PDF</span><span>Remover texto sensível</span><span>PDF sem cadastro</span></div>                <div class="seo-faq"><h3>Perguntas frequentes</h3><details><summary>Como rasurar um PDF online?</summary><p>Selecione o PDF, arraste sobre as informações que deseja ocultar, revise as páginas e finalize o novo arquivo.</p></details><details><summary>A informação coberta continua selecionável?</summary><p>As páginas são rasterizadas antes da montagem final, eliminando a camada de texto original do arquivo gerado.</p></details></div>    </section>
+    </main>
+<a class="site-help-button" href="catalogo" aria-label="Ajuda: catálogo de ferramentas">?</a>
+<footer class="site-footer"><div class="footer-brand"><img src="assets/images/infinitools-icon-48.png" alt=""><span>infinitools</span><small>Ferramentas portáteis para documentos.</small></div><nav class="footer-links" aria-label="Informações do site"><a href="sobre">Sobre</a><a href="privacidade">Privacidade</a><a href="contato">Contato</a><button type="button" data-privacy-preferences hidden>Preferências de privacidade</button></nav><strong class="developer-credit">*desenvolvido por Matheus de gois</strong></footer>
+<style>.site-footer{flex-wrap:wrap;gap:20px}.footer-links{display:flex;flex-wrap:wrap;gap:18px}.footer-links a{text-underline-offset:4px}.footer-links a:hover{color:#c84100}</style>
+<style>.site-header{padding-left:max(64px,calc((100vw - 1180px)/2))}.site-help-button{position:fixed;z-index:4990;top:10px;left:12px;display:grid;place-items:center;width:42px;height:42px;border:2px solid #fff;border-radius:50%;background:#ff5a0a;color:#fff;box-shadow:0 3px 14px #0003;font-size:24px;font-weight:800;line-height:1;text-decoration:none}.site-help-button:hover,.site-help-button:focus-visible{background:#c84100;transform:scale(1.06)}.skip-link:focus{top:60px}</style>
+<script type="module" src="assets/redact.js"></script>
+</body>
+</html>

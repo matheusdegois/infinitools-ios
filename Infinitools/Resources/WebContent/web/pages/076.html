@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR"><head><base href="/"><link rel="stylesheet" href="/android/mobile.css?v=2"><script src="/ios/transport.js"></script><script src="/android/bridge.js?v=3"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Testar protótipo web | Infinitools</title>
+<meta name="description" content="Edite HTML, CSS e JavaScript, teste a prévia e exporte seu projeto em ZIP no aparelho.">
+<link rel="icon" href="/assets/images/infinitools-favicon.ico"><link rel="apple-touch-icon" href="/assets/images/infinitools-icon-180.png">
+<link rel="stylesheet" href="/assets/style.min.css"><link rel="stylesheet" href="/assets/infinitools-brand.css">
+<link rel="stylesheet" href="/assets/vendor/codemirror/lib/codemirror.css"><link rel="stylesheet" href="/assets/prototype.css?v=1">
+<style>.prototype{padding:20px 14px 32px}.prototype-heading{align-items:flex-start}.prototype-heading h1{font-size:26px;letter-spacing:-.7px}.prototype-heading p{font-size:14px}.prototype-start{margin:18px 0}.prototype-pane-heading strong{overflow-wrap:anywhere;min-width:0}.prototype-toolbar{flex-wrap:wrap}.prototype-workspace{min-width:0}.prototype-help{padding:16px}.prototype-file-list{max-height:190px}.prototype-editor .CodeMirror{height:330px}.prototype-preview iframe{height:360px}#fileDialog{box-sizing:border-box;width:calc(100% - 32px);max-width:440px}#filePath{box-sizing:border-box;width:100%}#fileDialog p{overflow-wrap:anywhere}@media(max-width:650px){.prototype-pill{display:none}.prototype-workspace{grid-template-columns:minmax(0,1fr)}.prototype-heading h1{font-size:24px}}</style>
+</head><body>
+<main id="conteudo" class="prototype">
+<section class="prototype-heading"><div><span class="eyebrow">CRIE E EXPERIMENTE</span><h1>Testar protótipo web</h1><p>Edite HTML, CSS e JavaScript e veja sua ideia funcionar na prévia.</p></div><span class="prototype-pill">NO APARELHO</span></section>
+<section class="prototype-start" id="dropzone" aria-label="Importar projeto">
+<div><strong>Seu projeto, do seu jeito</strong><p>Comece do zero ou importe um ZIP com seus arquivos.</p></div>
+<div class="prototype-actions"><button id="newProject" type="button">Criar do zero</button><button id="importZip" type="button">Importar ZIP</button><button id="importFolder" type="button">Adicionar arquivos</button></div>
+<input id="zipInput" type="file" accept=".zip,application/zip" hidden><input id="assetInput" type="file" multiple hidden>
+</section>
+<div class="prototype-toolbar"><div><strong id="projectSize">3 arquivos</strong><span id="draftStatus">Rascunho neste aparelho</span></div><div class="prototype-actions"><button id="downloadProject" class="prototype-primary" type="button">Exportar ZIP</button></div></div>
+<p id="status" class="prototype-status" role="status" aria-live="polite"></p>
+<section class="prototype-workspace" aria-label="Editor e prévia">
+<aside class="prototype-files"><div class="prototype-pane-heading"><strong>Arquivos</strong><button id="addFile" type="button" aria-label="Criar arquivo">+</button></div><div id="fileList" class="prototype-file-list"></div><button id="addAssets" type="button">Adicionar imagens / arquivos</button><div class="prototype-file-options"><button id="renameFile" type="button">Renomear</button><button id="removeFile" type="button">Remover</button></div></aside>
+<div class="prototype-editor"><div class="prototype-pane-heading"><strong id="currentFile">index.html</strong><span>Edite e atualize a prévia</span></div><textarea id="code" aria-label="Código do arquivo" spellcheck="false"></textarea><div id="binaryFile" hidden>Imagem ou fonte incluída no ZIP do projeto.</div></div>
+<div class="prototype-preview"><div class="prototype-pane-heading"><strong>Prévia interativa</strong><button id="refreshPreview" type="button">Atualizar prévia</button></div><iframe id="preview" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Prévia isolada do protótipo"></iframe><p>Use arquivos locais. A prévia bloqueia conexões externas, formulários e popups.</p></div>
+</section>
+<p class="prototype-limits">Até 200 arquivos · 5 MiB por arquivo · 20 MiB por projeto e ZIP · index.html na raiz</p>
+<details class="prototype-help"><summary>Como testar seu projeto</summary><p>Abra index.html, edite o código e toque em Atualizar prévia. CSS, JavaScript e imagens devem estar no projeto, com caminhos relativos. Use Importar ZIP para preservar pastas.</p><p>O rascunho mais recente é salvo neste aparelho. Antes de criar ou importar outro projeto, exporte o atual. Apagar os dados ou desinstalar o aplicativo também apaga o rascunho.</p><p>Esta ferramenta é um testador local, sem hospedagem nem link público. Exportar ZIP guarda uma cópia na área Arquivos do Infinitools; de lá você pode salvar ou compartilhar.</p><p>A prévia é simplificada e tem orçamento de recursos de 8 MiB. Não executa PHP, Python, banco de dados, builds npm ou APIs externas. Projetos React/Vite precisam ser compilados antes; módulos JavaScript e navegação entre páginas podem exigir um servidor de desenvolvimento externo.</p></details>
+</main>
+<dialog id="fileDialog"><form id="fileForm"><h2 id="fileDialogTitle">Criar arquivo</h2><label for="filePath">Nome ou caminho</label><input id="filePath" required maxlength="240" placeholder="css/style.css" autocomplete="off"><p>Pastas são criadas pelo caminho do arquivo.</p><p id="fileError" role="alert"></p><div class="prototype-actions"><button id="cancelFile" type="button">Cancelar</button><button class="prototype-primary" type="submit">Salvar</button></div></form></dialog>
+<script src="/assets/vendor/codemirror/lib/codemirror.js"></script><script src="/assets/vendor/codemirror/mode/xml/xml.js"></script><script src="/assets/vendor/codemirror/mode/javascript/javascript.js"></script><script src="/assets/vendor/codemirror/mode/css/css.js"></script><script src="/assets/vendor/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+<script src="/assets/vendor/jszip.min.js"></script><script src="/android/prototype.js?v=2" defer></script>
+</body></html>

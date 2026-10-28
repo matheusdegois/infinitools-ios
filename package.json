@@ -1,0 +1,21 @@
+{
+  "name": "infinitools-ios",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import:android": "node scripts/import-android.mjs",
+    "project": "node scripts/generate-project.mjs",
+    "verify": "node scripts/verify.mjs",
+    "test:bridge": "node --test --test-reporter=spec --test-reporter=junit --test-reporter-destination=stdout --test-reporter-destination=docs/verification/bridge.xml tests-js/bridge.test.mjs",
+    "test:web": "node scripts/qa-web.mjs",
+    "test": "npm run verify && npm run test:bridge"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "jszip": "^3.10.1",
+    "tree-sitter": "^0.22.4",
+    "tree-sitter-swift": "^0.7.1",
+    "xcode": "^4.0.0"
+  }
+}

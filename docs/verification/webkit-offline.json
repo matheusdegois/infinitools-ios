@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-27T20:16:53.167Z",
+  "engine": "webkit",
+  "platform": "win32",
+  "viewport": {
+    "width": 393,
+    "height": 852
+  },
+  "nativeBridge": "simulated WK message handler; not the Swift ResultStore or iOS runtime",
+  "screens": [],
+  "flows": [
+    {
+      "name": "merge-two-pdfs-and-export",
+      "passed": true,
+      "pages": 2,
+      "bytes": 1088
+    },
+    {
+      "name": "chunked-export-sha256",
+      "passed": true,
+      "bytes": 900001,
+      "sha256": "bdbf3840729c36f4d061ae382b7ddd3fa8a8af97b42a8a46c8b9da51207aaedc"
+    },
+    {
+      "name": "raster-pdf-local-assembly",
+      "passed": true,
+      "bytes": 7469
+    },
+    {
+      "name": "qr-code-canvas",
+      "passed": true
+    },
+    {
+      "name": "cryptographic-password-generation",
+      "passed": true
+    },
+    {
+      "name": "jpg-to-png-and-export",
+      "passed": true,
+      "bytes": 583
+    },
+    {
+      "name": "batch-two-jpgs-to-png-zip-crc",
+      "passed": true
+    },
+    {
+      "name": "zip-two-files-content-and-crc",
+      "passed": true
+    },
+    {
+      "name": "prototype-sandboxed-interactive-preview",
+      "passed": true
+    },
+    {
+      "name": "prototype-has-no-native-capability",
+      "passed": true
+    },
+    {
+      "name": "prototype-zip-folders-css-js",
+      "passed": true
+    },
+    {
+      "name": "prototype-indexeddb-draft-restored",
+      "passed": true
+    },
+    {
+      "name": "prototype-export-zip-content-and-crc",
+      "passed": true
+    },
+    {
+      "name": "prototype-rejects-traversal-preserving-draft",
+      "passed": true
+    },
+    {
+      "name": "prototype-rejects-executable-preserving-draft",
+      "passed": true
+    },
+    {
+      "name": "prototype-rejects-symlink-preserving-draft",
+      "passed": true
+    },
+    {
+      "name": "prototype-rejects-oversize-preserving-draft",
+      "passed": true
+    },
+    {
+      "name": "responsive-prototype-852",
+      "passed": true,
+      "width": 852,
+      "height": 393
+    },
+    {
+      "name": "responsive-prototype-834",
+      "passed": true,
+      "width": 834,
+      "height": 1194
+    },
+    {
+      "name": "gif-sixty-frames-edit-and-export",
+      "passed": true,
+      "frames": 60
+    },
+    {
+      "name": "lottie-opaque-sandbox-render-and-png",
+      "passed": true
+    },
+    {
+      "name": "mupdf-encryption-and-export",
+      "passed": true
+    },
+    {
+      "name": "tesseract-searchable-pdf-ocr",
+      "passed": true,
+      "recognized": "Infinitools   iOS   123"
+    },
+    {
+      "name": "ffmpeg-wav-to-mp3-export",
+      "passed": true,
+      "bytes": 25748
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Desktop WebKit on Windows is not WKWebView on iOS. Native compilation, UI, camera, share extension, printing and Apple signing remain unverified here."
+  ],
+  "backendRequests": [],
+  "fixtureFailures": [],
+  "summary": {
+    "screens": 0,
+    "screenFailures": 0,
+    "overflows": 0,
+    "jsErrors": 0,
+    "flows": 24
+  }
+}

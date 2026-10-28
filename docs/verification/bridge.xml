@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="no capability in a subframe" time="0.020155" classname="test"/>
+	<testcase name="no capability on a foreign or different loopback origin" time="0.001601" classname="test"/>
+	<testcase name="no capability without WK message handler" time="0.000620" classname="test"/>
+	<testcase name="native reply keeps request correlation" time="0.001390" classname="test"/>
+	<testcase name="native rejection becomes correlated error" time="0.001005" classname="test"/>
+	<testcase name="malformed message is not posted to native" time="0.000694" classname="test"/>
+	<testcase name="site fetch retains path, query, method, body and CSRF header" time="0.000881" classname="test"/>
+	<testcase name="Request fetch retains its body and headers" time="0.005165" classname="test"/>
+	<testcase name="external domains are never sent to the backend proxy" time="0.000825" classname="test"/>
+	<testcase name="XHR preserves arguments while mapping the site origin" time="0.000992" classname="test"/>
+	<testcase name="blob popup is saved through the export bridge" time="0.000728" classname="test"/>
+	<testcase name="double script injection is idempotent" time="0.000575" classname="test"/>
+	<!-- tests 12 -->
+	<!-- suites 0 -->
+	<!-- pass 12 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 137.3215 -->
+</testsuites>

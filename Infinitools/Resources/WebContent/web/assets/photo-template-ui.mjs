@@ -1,0 +1,17 @@
+export function setupPhotoEditor(editor){
+ const root=editor.root;root.classList.add('photo-template-options');const shell=document.createElement('div');shell.className='photo-template-shell';const sidebar=document.createElement('aside');sidebar.className='photo-template-sidebar';sidebar.setAttribute('aria-label','Ajustes da foto');shell.append(editor.preview,sidebar);root.append(shell);
+ const group=(title,ids)=>{const section=document.createElement('section');section.className='photo-control-group';const heading=document.createElement('h3');heading.textContent=title;section.append(heading);sidebar.append(section);for(const id of ids){const control=editor.get(id);if(control)section.append(control.closest('label'));}return section;};
+ group('Enquadrar a foto',['imageZoom','cropX','cropY','photoGuides']);group('Cor de fundo',['background','allowImageBackground']);sidebar.append(editor.get('templateBackgroundNote'),editor.get('templateBackgroundStatus'));
+ if(editor.mode==='avatar'){
+  const format=group('Formato do avatar',['shape']),control=editor.get('shape'),buttons=document.createElement('div');buttons.className='avatar-shape-buttons';
+  for(const option of [...control.options]){const button=document.createElement('button');button.type='button';button.textContent=option.textContent;button.dataset.avatarShape=option.value;button.setAttribute('aria-pressed',String(control.value===option.value));button.onclick=()=>{control.value=option.value;control.dispatchEvent(new Event('input',{bubbles:true}));for(const b of buttons.children)b.setAttribute('aria-pressed',String(b===button));};buttons.append(button);}control.hidden=true;control.closest('label').append(buttons);const note=document.createElement('p');note.className='template-note';note.textContent='PNG de 512 × 512 pixels. No formato circular, a área externa permanece transparente.';format.append(note);
+ }else{
+  const size=group('Tamanho e resolução',['photoSize','photoWidth','photoHeight','dpi']);size.classList.add('photo-size-controls');
+  const details=document.createElement('details');details.className='photo-print-options';const summary=document.createElement('summary');summary.textContent='Folha para impressão';details.append(summary);sidebar.append(details);for(const id of ['printSheet','photoCopies','cutMarks'])details.append(editor.get(id).closest('label'));
+ }
+ const note=root.querySelector('.template-note');if(note&&!sidebar.contains(note))sidebar.append(note);root.replaceChildren(shell);editor.preview.querySelector('p').textContent='Ajuste as barras ao lado ou arraste a foto para enquadrar.'+(editor.mode==='photo-id'?' As guias não aparecem no download.':'');
+ let drag=null;
+ editor.canvas.addEventListener('pointerdown',event=>{if(event.button!==0||!editor.images.length)return;const l=editor.layers[0];drag={id:event.pointerId,x:event.clientX,y:event.clientY,cropX:l.cropX,cropY:l.cropY};editor.canvas.setPointerCapture(event.pointerId);});
+ editor.canvas.addEventListener('pointermove',event=>{if(!drag||drag.id!==event.pointerId)return;const box=editor.canvas.getBoundingClientRect(),l=editor.layers[0];l.cropX=Math.max(0,Math.min(100,drag.cropX-(event.clientX-drag.x)/box.width*100));l.cropY=Math.max(0,Math.min(100,drag.cropY-(event.clientY-drag.y)/box.height*100));editor.sync();editor.render();root.dispatchEvent(new Event('templatechange'));});
+ for(const event of ['pointerup','pointercancel','lostpointercapture'])editor.canvas.addEventListener(event,()=>drag=null);
+}

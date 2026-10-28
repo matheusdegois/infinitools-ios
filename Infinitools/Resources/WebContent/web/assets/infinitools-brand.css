@@ -1,0 +1,11 @@
+/* Keep the longer home-page headline readable at every screen size. */
+.home-hero .infinitools-headline {
+    font-size: clamp(30px, 3.4vw, 46px);
+    line-height: 1.13;
+    letter-spacing: -.035em;
+    text-wrap: balance;
+    overflow-wrap: break-word;
+}
+@media (max-width: 620px) {
+    .home-hero .infinitools-headline { font-size: clamp(28px, 7.6vw, 38px); }
+}

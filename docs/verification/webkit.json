@@ -1,0 +1,1594 @@
+{
+  "date": "2026-10-27T20:22:35.396Z",
+  "engine": "webkit",
+  "platform": "win32",
+  "viewport": {
+    "width": 393,
+    "height": 852
+  },
+  "nativeBridge": "simulated WK message handler; not the Swift ResultStore or iOS runtime",
+  "screens": [
+    {
+      "id": "pdf:merge",
+      "title": "Juntar PDF online grátis | infinitools",
+      "body": 327,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:split",
+      "title": "Dividir PDF online grátis | infinitools",
+      "body": 278,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:extract",
+      "title": "Extrair páginas online grátis | infinitools",
+      "body": 338,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:remove",
+      "title": "Remover páginas online grátis | infinitools",
+      "body": 333,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:reorder",
+      "title": "Reordenar páginas online grátis | infinitools",
+      "body": 328,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:organize",
+      "title": "Organizar páginas online grátis | infinitools",
+      "body": 334,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:copy",
+      "title": "Copiar PDF online grátis | infinitools",
+      "body": 345,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pages-per-sheet",
+      "title": "Páginas por folha online grátis | infinitools",
+      "body": 310,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:scan",
+      "title": "Digitalizar para PDF online grátis | infinitools",
+      "body": 337,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:compress",
+      "title": "Comprimir PDF online grátis | infinitools",
+      "body": 343,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:repair",
+      "title": "Reparar PDF online grátis | infinitools",
+      "body": 343,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:ocr",
+      "title": "OCR PDF online grátis | infinitools",
+      "body": 286,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:flatten",
+      "title": "Achatar PDF online grátis | infinitools",
+      "body": 346,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:rasterize",
+      "title": "Rasterizar PDF online grátis | infinitools",
+      "body": 298,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:office-pdf",
+      "title": "Office para PDF online grátis | infinitools",
+      "body": 318,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:word-pdf",
+      "title": "Word para PDF online grátis | infinitools",
+      "body": 321,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:powerpoint-pdf",
+      "title": "PowerPoint para PDF online grátis | infinitools",
+      "body": 330,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:excel-pdf",
+      "title": "Excel para PDF online grátis | infinitools",
+      "body": 329,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:image-pdf",
+      "title": "Imagem para PDF online grátis | infinitools",
+      "body": 364,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:jpg-pdf",
+      "title": "JPG para PDF online grátis | infinitools",
+      "body": 330,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:web-pdf",
+      "title": "Web / HTML para PDF online grátis | infinitools",
+      "body": 340,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:text-pdf",
+      "title": "Texto para PDF online grátis | infinitools",
+      "body": 298,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:markdown-pdf",
+      "title": "Markdown para PDF online grátis | infinitools",
+      "body": 302,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:png-pdf",
+      "title": "PNG para PDF online grátis | infinitools",
+      "body": 333,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:webp-pdf",
+      "title": "WebP para PDF online grátis | infinitools",
+      "body": 334,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:svg-pdf",
+      "title": "SVG para PDF online grátis | infinitools",
+      "body": 326,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:rtf-pdf",
+      "title": "RTF para PDF online grátis | infinitools",
+      "body": 332,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:epub-pdf",
+      "title": "EPUB para PDF online grátis | infinitools",
+      "body": 330,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-word",
+      "title": "PDF para Word online grátis | infinitools",
+      "body": 689,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-word-ocr",
+      "title": "PDF para Word com OCR online grátis | infinitools",
+      "body": 313,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-powerpoint",
+      "title": "PDF para PowerPoint online grátis | infinitools",
+      "body": 475,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-excel",
+      "title": "PDF para Excel online grátis | infinitools",
+      "body": 374,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-excel-ocr",
+      "title": "PDF para Excel com OCR online grátis | infinitools",
+      "body": 289,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-jpg",
+      "title": "PDF para JPG online grátis | infinitools",
+      "body": 287,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-png",
+      "title": "PDF para PNG online grátis | infinitools",
+      "body": 298,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-svg",
+      "title": "PDF para SVG online grátis | infinitools",
+      "body": 307,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-text",
+      "title": "PDF para texto online grátis | infinitools",
+      "body": 342,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-html",
+      "title": "PDF para HTML online grátis | infinitools",
+      "body": 564,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-rtf",
+      "title": "PDF para RTF online grátis | infinitools",
+      "body": 339,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-epub",
+      "title": "PDF para EPUB online grátis | infinitools",
+      "body": 341,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-pdfa",
+      "title": "PDF para PDF/A online grátis | infinitools",
+      "body": 354,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:pdf-markdown",
+      "title": "PDF para Markdown online grátis | infinitools",
+      "body": 328,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:stamps",
+      "title": "Carimbar PDF online grátis | infinitools",
+      "body": 662,
+      "bridge": true,
+      "overflow": false,
+      "controls": 18,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:header-footer",
+      "title": "Cabeçalho e rodapé online grátis | infinitools",
+      "body": 344,
+      "bridge": true,
+      "overflow": false,
+      "controls": 7,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:edit",
+      "title": "Editar PDF online grátis | infinitools",
+      "body": 464,
+      "bridge": true,
+      "overflow": false,
+      "controls": 8,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:page-numbers",
+      "title": "Inserir números de página online grátis | infinitools",
+      "body": 308,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:watermark",
+      "title": "Inserir marca-d'água online grátis | infinitools",
+      "body": 383,
+      "bridge": true,
+      "overflow": false,
+      "controls": 8,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:rotate",
+      "title": "Rodar PDF online grátis | infinitools",
+      "body": 300,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:crop",
+      "title": "Recortar PDF online grátis | infinitools",
+      "body": 304,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:forms",
+      "title": "Formulários PDF online grátis | infinitools",
+      "body": 1092,
+      "bridge": true,
+      "overflow": false,
+      "controls": 16,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:overlay",
+      "title": "Sobrepor PDFs online grátis | infinitools",
+      "body": 323,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:resize-page",
+      "title": "Alterar tamanho da página online grátis | infinitools",
+      "body": 389,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:metadata",
+      "title": "Editar informações do PDF online grátis | infinitools",
+      "body": 338,
+      "bridge": true,
+      "overflow": false,
+      "controls": 7,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:digital-sign",
+      "title": "Assinar PDF com certificado online grátis | infinitools",
+      "body": 1176,
+      "bridge": true,
+      "overflow": false,
+      "controls": 6,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:sanitize",
+      "title": "Sanitizar PDF online grátis | infinitools",
+      "body": 469,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:protect",
+      "title": "Proteger PDF online grátis | infinitools",
+      "body": 536,
+      "bridge": true,
+      "overflow": false,
+      "controls": 12,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:unlock",
+      "title": "Desbloquear PDF online grátis | infinitools",
+      "body": 327,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:redact",
+      "title": "Rasurar PDF online grátis | infinitools",
+      "body": 235,
+      "bridge": true,
+      "overflow": false,
+      "controls": 9,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:remove-metadata",
+      "title": "Remover metadados online grátis | infinitools",
+      "body": 734,
+      "bridge": true,
+      "overflow": false,
+      "controls": 8,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:view-pdf",
+      "title": "Visualizar PDF online grátis | infinitools",
+      "body": 165,
+      "bridge": true,
+      "overflow": false,
+      "controls": 11,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:compare-pdf",
+      "title": "Comparar PDFs online grátis | infinitools",
+      "body": 287,
+      "bridge": true,
+      "overflow": false,
+      "controls": 3,
+      "jsErrors": 0
+    },
+    {
+      "id": "pdf:viewer-preferences",
+      "title": "Preferências do visualizador online grátis | infinitools",
+      "body": 491,
+      "bridge": true,
+      "overflow": false,
+      "controls": 9,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:remove-background",
+      "title": "Tirar fundo | infinitools",
+      "body": 457,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:avatar",
+      "title": "Criar avatar | infinitools",
+      "body": 742,
+      "bridge": true,
+      "overflow": false,
+      "controls": 12,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:collage",
+      "title": "Criar collage | infinitools",
+      "body": 908,
+      "bridge": true,
+      "overflow": false,
+      "controls": 30,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:thumbnail",
+      "title": "Criar thumbnail | infinitools",
+      "body": 898,
+      "bridge": true,
+      "overflow": false,
+      "controls": 28,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:photo-id",
+      "title": "Foto 3×4 | infinitools",
+      "body": 905,
+      "bridge": true,
+      "overflow": false,
+      "controls": 15,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:social-image",
+      "title": "Imagem para redes sociais | infinitools",
+      "body": 695,
+      "bridge": true,
+      "overflow": false,
+      "controls": 31,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:optimize-png",
+      "title": "Otimizar PNG | infinitools",
+      "body": 579,
+      "bridge": true,
+      "overflow": false,
+      "controls": 7,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:editor",
+      "title": "Editor de imagem online grátis | infinitools",
+      "body": 214,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:vectorize",
+      "title": "Vetorizar imagem em SVG online grátis | infinitools",
+      "body": 728,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:batch-adjust",
+      "title": "Editar imagens em lote online grátis | infinitools",
+      "body": 414,
+      "bridge": true,
+      "overflow": false,
+      "controls": 21,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:sticker",
+      "title": "Imagem para figurinha online grátis | infinitools",
+      "body": 227,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:image-restore",
+      "title": "Restaurar e aumentar imagem online | infinitools",
+      "body": 1068,
+      "bridge": true,
+      "overflow": false,
+      "controls": 9,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:move",
+      "title": "Mover online grátis | infinitools",
+      "body": 203,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:marquee",
+      "title": "Letreiro retangular online grátis | infinitools",
+      "body": 217,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:ellipse-select",
+      "title": "Letreiro elíptico online grátis | infinitools",
+      "body": 215,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:lasso",
+      "title": "Laço livre online grátis | infinitools",
+      "body": 208,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:polygon-lasso",
+      "title": "Laço poligonal online grátis | infinitools",
+      "body": 212,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:magnetic-lasso",
+      "title": "Laço magnético online grátis | infinitools",
+      "body": 212,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:wand",
+      "title": "Varinha mágica online grátis | infinitools",
+      "body": 212,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:quick-select",
+      "title": "Seleção rápida online grátis | infinitools",
+      "body": 212,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:object-select",
+      "title": "Seleção de objeto online grátis | infinitools",
+      "body": 215,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:perspective",
+      "title": "Recortar em perspectiva online grátis | infinitools",
+      "body": 221,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:slice",
+      "title": "Fatiar imagem online grátis | infinitools",
+      "body": 211,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:brush",
+      "title": "Pincel online grátis | infinitools",
+      "body": 204,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:pencil",
+      "title": "Lápis online grátis | infinitools",
+      "body": 203,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:clone",
+      "title": "Carimbo online grátis | infinitools",
+      "body": 205,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:eraser",
+      "title": "Borracha online grátis | infinitools",
+      "body": 206,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:bucket",
+      "title": "Lata de tinta online grátis | infinitools",
+      "body": 211,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:gradient",
+      "title": "Gradiente online grátis | infinitools",
+      "body": 207,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:blur",
+      "title": "Desfoque localizado online grátis | infinitools",
+      "body": 217,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:sharpen",
+      "title": "Nitidez localizada online grátis | infinitools",
+      "body": 216,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:smudge",
+      "title": "Borrão online grátis | infinitools",
+      "body": 204,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:text",
+      "title": "Texto horizontal online grátis | infinitools",
+      "body": 214,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:text-vertical",
+      "title": "Texto vertical online grátis | infinitools",
+      "body": 212,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:pen",
+      "title": "Caneta online grátis | infinitools",
+      "body": 204,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:rectangle",
+      "title": "Retângulo online grátis | infinitools",
+      "body": 207,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:ellipse",
+      "title": "Elipse online grátis | infinitools",
+      "body": 204,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:polygon",
+      "title": "Polígono online grátis | infinitools",
+      "body": 206,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:zoom",
+      "title": "Zoom online grátis | infinitools",
+      "body": 202,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:hand",
+      "title": "Mão online grátis | infinitools",
+      "body": 201,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:background",
+      "title": "Tirar fundo no editor online grátis | infinitools",
+      "body": 219,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:merge",
+      "title": "Mesclar imagens online grátis | infinitools",
+      "body": 213,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:crop",
+      "title": "Cortar imagem online grátis | infinitools",
+      "body": 211,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:rotate",
+      "title": "Rotação de imagem online grátis | infinitools",
+      "body": 215,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:exposure",
+      "title": "Exposição e Brilho online grátis | infinitools",
+      "body": 216,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:contrast",
+      "title": "Contraste online grátis | infinitools",
+      "body": 207,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:lights",
+      "title": "Realces e Sombras online grátis | infinitools",
+      "body": 215,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:temperature",
+      "title": "Temperatura de Cor online grátis | infinitools",
+      "body": 216,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:saturation",
+      "title": "Saturação e Intensidade online grátis | infinitools",
+      "body": 221,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:hue",
+      "title": "Matiz online grátis | infinitools",
+      "body": 203,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:sharpness",
+      "title": "Nitidez e Claridade online grátis | infinitools",
+      "body": 217,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:noise",
+      "title": "Redução de Ruído online grátis | infinitools",
+      "body": 214,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:heal",
+      "title": "Remoção de Manchas/Objetos online grátis | infinitools",
+      "body": 224,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:insert",
+      "title": "Inserir imagem online grátis | infinitools",
+      "body": 212,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:layers",
+      "title": "Camadas e Máscaras online grátis | infinitools",
+      "body": 216,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:curves",
+      "title": "Curvas de Tom online grátis | infinitools",
+      "body": 211,
+      "bridge": true,
+      "overflow": false,
+      "controls": 77,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:convert-image",
+      "title": "Converter imagens online grátis | infinitools",
+      "body": 572,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:jpg-png",
+      "title": "JPG para PNG online grátis | infinitools",
+      "body": 567,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:png-jpg",
+      "title": "PNG para JPG online grátis | infinitools",
+      "body": 567,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:png-webp",
+      "title": "PNG para WebP online grátis | infinitools",
+      "body": 568,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:webp-jpg",
+      "title": "WebP para JPG online grátis | infinitools",
+      "body": 568,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:webp-png",
+      "title": "WebP para PNG online grátis | infinitools",
+      "body": 568,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:heic-jpg",
+      "title": "HEIC para JPG online grátis | infinitools",
+      "body": 568,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:heic-png",
+      "title": "HEIC para PNG online grátis | infinitools",
+      "body": 568,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:tiff-jpg",
+      "title": "TIFF para JPG online grátis | infinitools",
+      "body": 568,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:svg-png",
+      "title": "SVG para PNG online grátis | infinitools",
+      "body": 567,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:raw-jpg",
+      "title": "RAW para JPG online grátis | infinitools",
+      "body": 567,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:psd-png",
+      "title": "PSD para PNG online grátis | infinitools",
+      "body": 567,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:ai-png",
+      "title": "AI para PNG online grátis | infinitools",
+      "body": 566,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:image-pdf",
+      "title": "Imagem para PDF online grátis | infinitools",
+      "body": 570,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "image:image-gif",
+      "title": "Imagem para GIF online grátis | infinitools",
+      "body": 570,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:gif-editor",
+      "title": "Editor de GIF animado online grátis | infinitools",
+      "body": 239,
+      "bridge": true,
+      "overflow": false,
+      "controls": 26,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:lottie-viewer",
+      "title": "Visualizar Lottie online grátis | infinitools",
+      "body": 187,
+      "bridge": true,
+      "overflow": false,
+      "controls": 5,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:video",
+      "title": "Conversor de vídeo online grátis sem limite diário | infinitools",
+      "body": 1173,
+      "bridge": true,
+      "overflow": false,
+      "controls": 15,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:audio",
+      "title": "Conversor de áudio online grátis | infinitools",
+      "body": 1016,
+      "bridge": true,
+      "overflow": false,
+      "controls": 7,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:audio-restore",
+      "title": "Restauração/aumento de qualidade de áudio | infinitools",
+      "body": 1980,
+      "bridge": true,
+      "overflow": false,
+      "controls": 17,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:video-restore",
+      "title": "Restaurar e melhorar vídeo online | infinitools",
+      "body": 1134,
+      "bridge": true,
+      "overflow": false,
+      "controls": 11,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:extract-audio",
+      "title": "Extrair áudio de vídeo online grátis | infinitools",
+      "body": 1005,
+      "bridge": true,
+      "overflow": false,
+      "controls": 13,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:video-gif",
+      "title": "Converter vídeo para GIF online grátis | infinitools",
+      "body": 954,
+      "bridge": true,
+      "overflow": false,
+      "controls": 12,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:video-image",
+      "title": "Capturar imagem de vídeo online grátis | infinitools",
+      "body": 884,
+      "bridge": true,
+      "overflow": false,
+      "controls": 12,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:images-video",
+      "title": "Converter GIF ou fotos para vídeo online | infinitools",
+      "body": 1128,
+      "bridge": true,
+      "overflow": false,
+      "controls": 7,
+      "jsErrors": 0
+    },
+    {
+      "id": "media:youtube-download",
+      "title": "Baixar e converter mídia por link | infinitools",
+      "body": 1322,
+      "bridge": true,
+      "overflow": false,
+      "controls": 11,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:media-metadata",
+      "title": "Inspecionar metadados de mídia | infinitools",
+      "body": 271,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:zip-files",
+      "title": "Compactar arquivos ZIP | infinitools",
+      "body": 211,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:unzip-files",
+      "title": "Descompactar ZIP | infinitools",
+      "body": 212,
+      "bridge": true,
+      "overflow": false,
+      "controls": 4,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:compiladores",
+      "title": "infiniCompiler — Compiladores online | infinitools",
+      "body": 314,
+      "bridge": true,
+      "overflow": false,
+      "controls": 204,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:qr-code",
+      "title": "Gerar código QR online grátis | infinitools",
+      "body": 303,
+      "bridge": true,
+      "overflow": false,
+      "controls": 28,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:password-generator",
+      "title": "Gerar senha segura online grátis | infinitools",
+      "body": 357,
+      "bridge": true,
+      "overflow": false,
+      "controls": 9,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:create-invoice",
+      "title": "Criar fatura PDF online grátis | infinitools",
+      "body": 635,
+      "bridge": true,
+      "overflow": false,
+      "controls": 16,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:job-application",
+      "title": "Criar candidatura de trabalho online grátis | infinitools",
+      "body": 327,
+      "bridge": true,
+      "overflow": false,
+      "controls": 11,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:sorteio-numeros",
+      "title": "Sorteador de números online grátis | infinitools",
+      "body": 922,
+      "bridge": true,
+      "overflow": false,
+      "controls": 24,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:sorteio-times",
+      "title": "Sorteador de times online grátis | infinitools",
+      "body": 740,
+      "bridge": true,
+      "overflow": false,
+      "controls": 22,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:sorteio-palavras",
+      "title": "Sorteador de palavras online grátis | infinitools",
+      "body": 750,
+      "bridge": true,
+      "overflow": false,
+      "controls": 22,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:sorteio-imagens",
+      "title": "Sorteador de imagens online grátis | infinitools",
+      "body": 896,
+      "bridge": true,
+      "overflow": false,
+      "controls": 21,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:cubo-magico",
+      "title": "Cubo mágico 3D online grátis | infinitools",
+      "body": 580,
+      "bridge": true,
+      "overflow": false,
+      "controls": 17,
+      "jsErrors": 0
+    },
+    {
+      "id": "utility:publicador-web",
+      "title": "Testar protótipo web | Infinitools",
+      "body": 1196,
+      "bridge": true,
+      "overflow": false,
+      "controls": 19,
+      "jsErrors": 0
+    }
+  ],
+  "flows": [
+    {
+      "name": "merge-two-pdfs-and-export",
+      "passed": true,
+      "pages": 2,
+      "bytes": 1087
+    },
+    {
+      "name": "chunked-export-sha256",
+      "passed": true,
+      "bytes": 900001,
+      "sha256": "bdbf3840729c36f4d061ae382b7ddd3fa8a8af97b42a8a46c8b9da51207aaedc"
+    },
+    {
+      "name": "raster-pdf-local-assembly",
+      "passed": true,
+      "bytes": 7468
+    },
+    {
+      "name": "qr-code-canvas",
+      "passed": true
+    },
+    {
+      "name": "cryptographic-password-generation",
+      "passed": true
+    },
+    {
+      "name": "jpg-to-png-and-export",
+      "passed": true,
+      "bytes": 583
+    },
+    {
+      "name": "batch-two-jpgs-to-png-zip-crc",
+      "passed": true
+    },
+    {
+      "name": "zip-two-files-content-and-crc",
+      "passed": true
+    },
+    {
+      "name": "prototype-sandboxed-interactive-preview",
+      "passed": true
+    },
+    {
+      "name": "prototype-has-no-native-capability",
+      "passed": true
+    },
+    {
+      "name": "prototype-zip-folders-css-js",
+      "passed": true
+    },
+    {
+      "name": "prototype-indexeddb-draft-restored",
+      "passed": true
+    },
+    {
+      "name": "prototype-export-zip-content-and-crc",
+      "passed": true
+    },
+    {
+      "name": "prototype-rejects-traversal-preserving-draft",
+      "passed": true
+    },
+    {
+      "name": "prototype-rejects-executable-preserving-draft",
+      "passed": true
+    },
+    {
+      "name": "prototype-rejects-symlink-preserving-draft",
+      "passed": true
+    },
+    {
+      "name": "prototype-rejects-oversize-preserving-draft",
+      "passed": true
+    },
+    {
+      "name": "responsive-prototype-852",
+      "passed": true,
+      "width": 852,
+      "height": 393
+    },
+    {
+      "name": "responsive-prototype-834",
+      "passed": true,
+      "width": 834,
+      "height": 1194
+    },
+    {
+      "name": "gif-sixty-frames-text-speed-and-export",
+      "passed": true,
+      "frames": 60,
+      "duration": 1200
+    },
+    {
+      "name": "lottie-opaque-sandbox-render-and-png",
+      "passed": true
+    },
+    {
+      "name": "mupdf-encryption-and-export",
+      "passed": true
+    },
+    {
+      "name": "tesseract-searchable-pdf-ocr",
+      "passed": true,
+      "recognized": "Infinitools   iOS   123"
+    },
+    {
+      "name": "text-to-pdf-https-backend-and-export",
+      "passed": true
+    },
+    {
+      "name": "pdfa-backend-output-and-export",
+      "passed": true,
+      "bytes": 6867,
+      "note": "Checks PDF output; does not independently certify PDF/A conformance."
+    },
+    {
+      "name": "ffmpeg-wav-to-mp3-export",
+      "passed": true,
+      "bytes": 25748
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Desktop WebKit on Windows is not WKWebView on iOS. Native compilation, UI, camera, share extension, printing and Apple signing remain unverified here."
+  ],
+  "backendRequests": [
+    {
+      "path": "/youtube-download",
+      "method": "GET"
+    },
+    {
+      "path": "/api/compiler-preferences.php",
+      "method": "GET"
+    },
+    {
+      "path": "/api/compiler.php",
+      "method": "GET"
+    },
+    {
+      "path": "/api/html-pdf.php",
+      "method": "POST"
+    },
+    {
+      "path": "/api/pdfa.php",
+      "method": "GET"
+    },
+    {
+      "path": "/api/pdfa.php",
+      "method": "POST"
+    }
+  ],
+  "fixtureFailures": [],
+  "summary": {
+    "screens": 158,
+    "screenFailures": 0,
+    "overflows": 0,
+    "jsErrors": 0,
+    "flows": 26
+  }
+}
