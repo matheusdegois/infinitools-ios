@@ -1,0 +1,15 @@
+.DS_Store
+.build/
+node_modules/
+DerivedData/
+output/
+.tools/
+__pycache__/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.p12
+*.mobileprovision
+*.xcarchive
+Infinitools/Resources/.WebContent-*/
+
